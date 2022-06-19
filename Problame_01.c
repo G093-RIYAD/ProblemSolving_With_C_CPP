@@ -12,7 +12,18 @@ int main()
     Value of c: 30
     Average of a,b and c:20.00
     */
+    //My solution 👽
+    int a,b,c;
+    printf("Value of a: ");
+    scanf("%d",&a);
+    printf("Value of b: ");
+    scanf("%d",&b);
+    printf("Value of c: ");
+    scanf("%d",&c);
+    float average = (a+b+c)/3.0;
+    printf("Average of a,b and c: %.2f\n",average);
     
+    //Sir solution 🔥
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
     float average = (a+b+c)/3.0;
