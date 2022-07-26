@@ -31,3 +31,18 @@ int main()
     printf("The conversion of %.2ff is %.2fc",fahrenheit,celsius);
     return 0;
 }
+//##04  take input of height, width and length and find out volume of a box
+#include <stdio.h>
+int main()
+{
+    float height, width, length,volume;
+    printf("Enter height: ");
+    scanf("%f",&height);
+    printf("Enter width: ");
+    scanf("%f",&width);
+    printf("Enter length: ");
+    scanf("%f",&length);
+    volume = height*width*length;
+    printf("The Volume of the box is : %.2f ",volume);
+    return 0;
+}
