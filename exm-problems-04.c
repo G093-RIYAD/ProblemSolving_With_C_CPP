@@ -98,3 +98,18 @@ int main()
     printf("Sum of the digits )
     return 0;
 }
+//##09 take a number as input and check if it is positive or negative
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Type your number: ");
+    scanf("%d",&a);
+    if(a>=0){
+        printf("The Number %d is Positive",a);
+    }
+    else{
+        printf("The Number %d is Negative",a);
+    }
+    return 0;
+}
