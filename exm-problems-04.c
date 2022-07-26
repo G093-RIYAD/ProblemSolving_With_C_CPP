@@ -70,3 +70,15 @@ int main()
     printf("Square = %.2f",square);
     return 0;
 }
+//##07 take two numbers as input divide them and find out quotient and remainder
+#include <stdio.h>
+int main()
+{
+    int dividend, divisor, quotient, remainder;
+    printf("The two dividend and divisor = \n");
+    scanf("%d %d",&dividend, &divisor);
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+    printf("Quotient = %d and Remainder = %d ",quotient,remainder);
+    return 0;
+}
