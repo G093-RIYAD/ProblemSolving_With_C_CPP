@@ -46,3 +46,16 @@ int main()
     printf("The Volume of the box is : %.2f ",volume);
     return 0;
 }
+//##05 take length and width to find out area of a rectangle
+#include <stdio.h>
+int main()
+{
+    float width, length, rectangle;
+    printf("Enter width: ");
+    scanf("%f",&width);
+    printf("Enter length: ");
+    scanf("%f",&length);
+    rectangle = width*length;
+    printf("The area of a rectangle is : %.2f sq. units ",rectangle);
+    return 0;
+}
