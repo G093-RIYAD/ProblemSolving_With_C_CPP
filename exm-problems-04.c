@@ -20,3 +20,14 @@ int main()
     printf("result of %.2f and %.2f = %.2f",x,y,sum);
     return 0;
 }
+//##03 findout fahrenheit to celsius, celsius to fahrenheit
+#include <stdio.h>;
+int main()
+{
+    float fahrenheit, celsius;
+    printf("Enter the temperature in fahrenheit : ");
+    scanf("%f",&fahrenheit);
+    celsius = (fahrenheit - 32) * 5 / 9;
+    printf("The conversion of %.2ff is %.2fc",fahrenheit,celsius);
+    return 0;
+}
