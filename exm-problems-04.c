@@ -59,3 +59,14 @@ int main()
     printf("The area of a rectangle is : %.2f sq. units ",rectangle);
     return 0;
 }
+//##06 find out the square of a number
+#include <stdio.h>
+int main()
+{
+    float square, number;
+    printf("Enter Your Number : ");
+    scanf("%f",&number);
+    square = number * number;
+    printf("Square = %.2f",square);
+    return 0;
+}
