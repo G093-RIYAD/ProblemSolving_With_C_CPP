@@ -82,3 +82,19 @@ int main()
     printf("Quotient = %d and Remainder = %d ",quotient,remainder);
     return 0;
 }
+//##08 findout the sum of digits of a number (2 digits or 3 digits)
+#include <stdio.h>
+int main()
+{
+    int n,t,remainder,sum=0;
+    printf("Enter an integer value: \n");
+    scanf("%d",&n)
+    t=n;
+    while(t!=0){
+        remainder=t%10;
+        sum = sum + remainder;
+        t=t/10;
+    }
+    printf("Sum of the digits )
+    return 0;
+}
